@@ -8,6 +8,8 @@ import com.laptrinhoop.dao.IGeneralDAO;
 import com.laptrinhoop.service.IGeneralService;
 
 public class GeneralService<L, K> implements IGeneralService<L, K> {
+
+	
 	@Autowired
 	private IGeneralDAO<L, K> dao;
 

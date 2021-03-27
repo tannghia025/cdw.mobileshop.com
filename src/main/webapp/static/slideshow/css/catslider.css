@@ -85,9 +85,16 @@
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	border-top: 5px solid rgb(0, 115, 153);
+	border-top: 5px solid #000000;
     bottom:0px;
     width:100%;
+}
+.trang-chu-text{
+	
+	font-family: sans-serif;
+    color: #ffe007 !important;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .no-js nav {
@@ -97,8 +104,8 @@
 .mi-slider nav a {
 	display: inline-block;
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	padding: 20px 30px;
+/* 	letter-spacing: 5px;
+ */	padding: 20px 30px;
 	position: relative;
 	color: #888;
 	outline: none;
@@ -136,7 +143,7 @@
 
 .mi-slider nav a.mi-selected:before {
 	border-color: transparent;
-	border-top-color: #903;
+	border-top-color: #f5c70a;
 	border-width: 27px;
 	left: 50%;
 	margin-left: -27px;

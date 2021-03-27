@@ -15,6 +15,8 @@ import com.laptrinhoop.dao.IGeneralDAO;
 @Transactional
 public class GeneraDAO<L, K> implements IGeneralDAO<L, K> {
 
+
+
 	@Autowired
 	protected SessionFactory factory;
 

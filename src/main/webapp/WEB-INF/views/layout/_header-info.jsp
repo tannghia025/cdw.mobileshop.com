@@ -1,5 +1,6 @@
 <%@ page pageEncoding="utf-8"%>
-<div class="row">
+<div class="row" style="border-top: 5px solid #000000;
+    padding-top: 5px;">
 	<div class="col-sm-4"
 		class="col div-no-padding medium-3 small-6 large-3">
 		<div class="col-inner">

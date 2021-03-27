@@ -42,7 +42,7 @@ public class Customer {
 	@Column(name = "admin")
 	boolean admin = false;
 
-	@OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
 	List<Order> orders;
 
 	public String getId() {

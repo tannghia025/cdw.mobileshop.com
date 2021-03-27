@@ -29,8 +29,8 @@ public class OrderController {
 	@Autowired
 	private IOrderSevice orderService;
 
-	@Autowired
-	private IRabbitmqService rabbit;
+//	@Autowired
+//	private IRabbitmqService rabbit;
 
 	@GetMapping("/order/checkout")
 	public String checkOut(Model model,RedirectAttributes attributes) {
@@ -47,7 +47,7 @@ public class OrderController {
 	@PostMapping("/order/checkout")
 	public String checkOut(Model model, @Validated @ModelAttribute("order") Order or) {
 		// orderService.addOrderAndOrderDetail(or, cartService);
-		rabbit.converToSendRabbit(or, cartService);
+//		rabbit.converToSendRabbit(or, cartService);
 		cartService.clear();
 		return "redirect:/home/index";
 	}

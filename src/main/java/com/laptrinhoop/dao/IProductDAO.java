@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.laptrinhoop.entity.Product;
 
+
 public interface IProductDAO extends IGeneralDAO<Product, Integer> {
 
      	List<Product> findByKeywords(String keywords);

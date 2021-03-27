@@ -1,6 +1,9 @@
 <%@ page pageEncoding="utf-8"%>
 <%@ include file="/common/taglib.jsp" %>
+
+
 <nav class="navbar navbar-inverse">
+<div class="nav-brand-edit">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -8,7 +11,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/home/index"><span class="glyphicon glyphicon-home"></span>Trang chủ</a>
+			<a class="trang-chu-text navbar-brand " href="/home/index"><span class="glyphicon glyphicon-home"></span>MobileShop.vn</a>
 		</div>
 		<div class="collapse navbar-collapse" id="menu">
 			<ul class="nav navbar-nav">
@@ -50,6 +53,8 @@
 			</ul>
 		</div>
 	</div>
+	</div>
 </nav>
+
 
 

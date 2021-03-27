@@ -31,6 +31,7 @@
 	right:0px;
 }
 
+
 }
 /*-----HEADER-----*/
 header{
@@ -53,6 +54,9 @@ header .nn-company h4{
 	letter-spacing: 2.2px;
 }
 /*-----MENU-----*/
+.nav-brand-edit{
+	   padding-inline: 225px;
+}
 .navbar a{
 	font-variant: small-caps;
 }

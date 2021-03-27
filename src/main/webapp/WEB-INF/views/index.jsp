@@ -10,13 +10,15 @@
 <tiles:insertAttribute name="head" />
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<header class="row">
-			<tiles:insertAttribute name="header" />
-		</header>
-		<nav class="row">
+			<%-- <tiles:insertAttribute name="header" /> --%>
+			<nav class="row">
 			<tiles:insertAttribute name="menu" />
 		</nav>
+		</header>
+		</div>
+		<div class="container">
 		<div class="row">
 			<article class="col-sm-9">
 				<div class="row" style="margin-right: 5px;">
@@ -29,10 +31,12 @@
 				</div>
 			</aside>
 		</div>
+		<tiles:insertAttribute name="header" /> 
 		<footer class="row">
 			<tiles:insertAttribute name="footer" />
 		</footer>
-	</div>
+		</div>
+	
 
 </body>
 </html>
