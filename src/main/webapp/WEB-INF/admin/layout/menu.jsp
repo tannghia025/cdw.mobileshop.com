@@ -48,8 +48,8 @@
 				</a>
 					<ul class="dropdown-menu">
 						<li><a href="/admin/home/document">Create Document</a></li>
-						<li><a href="/admin/home/logoff">Sign Out</a></li>
-						<li><a href="/admin/home/change">Change Password</a></li>
+						<li><a href="/account/logoff">Sign Out</a></li>
+						<li><a href="/account/change">Change Password</a></li>
 						<li class="divider"></li>
 						<li><a href="/admin/customer/index?permission">User
 								Permissions</a></li>

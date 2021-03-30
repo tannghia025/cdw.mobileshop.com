@@ -40,7 +40,7 @@ $(function(){
 					<div class="row">
 						<div class="form-group col-sm-4">
 							<label>Mã</label>
-							<form:input path="id" class="form-control" readonly="true" placeholder="Auto Number"/>
+							<form:input path="id" class="form-control"  placeholder="Auto Number"/>
 						</div>
 						<div class="form-group col-sm-4">
 							<label>Tên sản phẩm</label>

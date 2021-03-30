@@ -23,17 +23,18 @@ DROP TABLE IF EXISTS `orders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `orders` (
-  `id` int NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
   `CustomerId` varchar(20) NOT NULL,
   `OrderDate` datetime NOT NULL,
   `Address` varchar(45) NOT NULL,
   `Amount` float NOT NULL,
   `Description` varchar(100) DEFAULT NULL,
   `Status` int NOT NULL,
+  `phone` int DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `CustomerId` (`CustomerId`),
   CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`CustomerId`) REFERENCES `customers` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +43,7 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
+INSERT INTO `orders` VALUES (1,'guest','2021-03-29 00:00:00','KTX khu B ĐHQG',31,'em anh Bình Gold',0,NULL),(2,'guest','2021-03-29 00:00:00','KTX khu B ĐHQG',263.5,'<br>',3,NULL);
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-27 14:09:14
+-- Dump completed on 2021-03-29 21:37:58

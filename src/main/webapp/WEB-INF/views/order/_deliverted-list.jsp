@@ -28,9 +28,10 @@
 					<td style="color: green;"><c:choose>
 							<c:when test="${o.status == 0}">Hoàn tất</c:when>
 							<c:when test="${o.status == 1}">Chờ xác nhận</c:when>
-							<c:when test="${o.status == 2}">Đang giao</c:when>
-							<c:when test="${o.status == 3}">Đã giao</c:when>
-							<c:when test="${o.status == 4}">Đã hủy</c:when>
+							<c:when test="${o.status == 3}">Đã xác nhận</c:when>
+							<c:when test="${o.status == 3}">Đang giao</c:when>
+							<c:when test="${o.status == 4}">Đã giao</c:when>
+							<c:when test="${o.status == 5}">Đã hủy</c:when>
 						</c:choose></td>
 					<td><a href="/order/detail/${o.id}"
 						class="btn btn-sm btn-warning"> <span

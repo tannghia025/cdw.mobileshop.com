@@ -38,7 +38,14 @@ public class OrderDAO extends GeneraDAO<Order, Integer> implements IOrderDAO {
 	@Override
 	public List<Order> findByUser(Customer user) {
 		String sql = "FROM Order o WHERE o.customer.id=?0 ORDER BY o.orderDate DESC";
-		return this.getResultList(sql, user.getId());
+
+
+				  List<Order> result = this.getResultList(sql, user.getId());
+					if(result != null && result.size() > 0){
+						return result;
+					}
+
+				return null;
 	}
 
 }

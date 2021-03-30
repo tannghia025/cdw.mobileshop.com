@@ -15,8 +15,10 @@
 }
 
 .mi-slider ul li img {
-	height: 200px;
+	height: 180px;
+	padding-top: 50px;
 }
+
 </style>
 <script>
 	$(function() {
@@ -33,7 +35,7 @@
 				<c:forEach items="${c.products}" var="p">
 					<li><a href="/product/detail/${p.id}"> <img
 							src="/static/images/products/${p.image}" />
-							<h4>${p.unitPrice}</h4>
+							<h4>${p.name}</h4>
 					</a></li>
 				</c:forEach>
 

@@ -32,7 +32,7 @@
 }
 
 
-}
+
 /*-----HEADER-----*/
 header{
 	position: relative;
@@ -59,6 +59,7 @@ header .nn-company h4{
 }
 .navbar a{
 	font-variant: small-caps;
+	color: #e6aa00  !important;
 }
 .nn-lang a{
 	padding: 10px 0 0 10px !important;
@@ -75,8 +76,7 @@ aside .nn-cart img{
 	width: 60px;
 }
 aside .nn-cart ul{
-	list-style-type: circle;
-	padding-left: 0px;
+	list-style: inside;
 }
 /*-----FOOTER-----*/
 footer a{
@@ -86,8 +86,9 @@ footer a{
 /*-----product/list.jsp-----*/
 .nn-prod .panel-title{
 	font-size: smaller;
-	font-variant: small-caps;
+	font-variant: contextual;
 	font-weight: bolder;
+	color: black;
 }
 .nn-prod .panel-body img {
 	height: 150px;
@@ -109,8 +110,8 @@ footer a{
 }
 
 .nn-detail .panel-body{
-	font-size: larger;
-	font-variant: small-caps;
+	font-size: large;
+	font-variant: proportional-nums;
 	line-height: 28px;
 }
 .nn-detail .panel-body img{
@@ -130,7 +131,6 @@ footer a{
 
 .nn-detail-relatives img{
 	width: 100px;
-	height: 100px;
 	box-shadow: 0 0 2px gray;
 	border-radius: 5px;
 	background-color: white;

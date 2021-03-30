@@ -61,6 +61,7 @@ public class OrderService extends GeneralService<Order, Integer> implements IOrd
 	@Override
 	public List<Order> getAllOrderByUser() {
 		Customer user = http.getSession("user");
+
 		return orderDAO.findByUser(user);
 	}
 
@@ -74,13 +75,18 @@ public class OrderService extends GeneralService<Order, Integer> implements IOrd
 		Customer user = http.getSession("user");
 		List<Order> list = orderDAO.findByUser(user);
 		Map<Integer, Product> prods = new HashMap<Integer, Product>();
-		list.forEach(order -> {
-			order.getOrderDetails().forEach(details -> {
-				Product p = details.getProduct();
-				prods.put(p.getId(), p);
-			});
+		if(list!=null){
+			list.forEach(order -> {
 
-		});
+				order.getOrderDetails().forEach(details -> {
+					Product p = details.getProduct();
+					prods.put(p.getId(), p);
+				});
+
+
+			});
+		}
+
 		return prods;
 	}
 
