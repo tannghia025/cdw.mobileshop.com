@@ -3,7 +3,8 @@
 <c:forEach var="p" items="${list}">
 	<div class="col-md-4 col-sm-6 nn-prod" data-id="${p.id}">
 		<div class="panel panel-success">
-			<div class="panel-heading text-center">
+			<div style="background: #2962a9;     border-radius: 5px;
+" class="panel-heading text-center">
 				<h4 class="panel-title">${p.name}</h4>
 			</div>
 			<div class="panel-body text-center">

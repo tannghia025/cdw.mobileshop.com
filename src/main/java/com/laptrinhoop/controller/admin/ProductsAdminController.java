@@ -2,6 +2,7 @@ package com.laptrinhoop.controller.admin;
 
 import java.io.File;
 
+import joptsimple.internal.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,9 +32,15 @@ public class ProductsAdminController {
 	private IHttpService http;
 
 	@RequestMapping("index")
-	public String index(Model model) {
-		model.addAttribute("product", new Product());
-		model.addAttribute("list", productService.findAll());
+	public String index(Model model,@RequestParam(name = "category_id", required = false) String category_id) {
+		if(!Strings.isNullOrEmpty(category_id)){
+			model.addAttribute("product", new Product());
+			model.addAttribute("list", productService.findAllProductByCategory(Integer.parseInt(category_id)));
+		}else{
+			model.addAttribute("product", new Product());
+			model.addAttribute("list", productService.findAll());
+		}
+
 		return "admin/product/index";
 	}
 

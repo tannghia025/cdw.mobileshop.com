@@ -59,7 +59,7 @@ header .nn-company h4{
 }
 .navbar a{
 	font-variant: small-caps;
-	color: #FED101  !important;
+	color: #e2e2e2  !important;
 }
 .nn-lang a{
 	padding: 10px 0 0 10px !important;
@@ -85,10 +85,10 @@ footer a{
 }
 /*-----product/list.jsp-----*/
 .nn-prod .panel-title{
-	font-size: smaller;
+	font-size: small;
 	font-variant: contextual;
 	font-weight: bolder;
-	color: black;
+	color: #f1f1f1;
 }
 .nn-prod .panel-body img {
 	height: 150px;

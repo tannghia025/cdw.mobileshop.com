@@ -39,10 +39,10 @@
 	transform: translateX(600%);
 	-webkit-transition: opacity 0.2s linear;
 	transition: opacity 0.2s linear;
-
-    border:1px dotted gray;
-    border-radius:10px;
-    margin:5px;
+	border: 2px solid #2b1b0a;
+	border-radius: 12px;
+	margin: 143px;
+	margin: 6px;
 }
 
 .no-js .mi-slider ul li {
@@ -70,7 +70,7 @@
 .mi-slider ul li h4 {
 	display: inline-block;
 	font-family: serif;
-	font-weight: initial;
+	font-weight: bold;
 	font-size: 14px;
 	color: #b10000;
 }

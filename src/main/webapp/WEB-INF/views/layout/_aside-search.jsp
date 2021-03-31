@@ -1,7 +1,8 @@
 <%@ page pageEncoding="utf-8"%>
 
 <div class="panel panel-info">
-	<div class="panel-heading">
+	<div class="panel-heading" style="    color: #ffffff;
+	background-color: #337ab7;">
 		<h3 class="panel-title">
 			<span class="glyphicon glyphicon-search"></span> Search
 		</h3>

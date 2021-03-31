@@ -2,7 +2,8 @@
 <%@ include file="/common/taglib.jsp"%>
 
 <div class="panel panel-success">
-	<div class="panel-heading">
+	<div style="color: #ffffff;
+	background-color: #337ab7" class="panel-heading">
 		<h3 class="panel-title">
 			<span class="glyphicon glyphicon-th-large"></span> DANH MỤC HÀNG HÓA
 		</h3>

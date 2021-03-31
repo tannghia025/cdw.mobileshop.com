@@ -178,3 +178,620 @@
 2021-03-30 13:44:41.430  WARN 12964 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
 2021-03-30 13:46:35.991  INFO 12964 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2021-03-30 13:46:35.992  INFO 12964 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:14:11.858  INFO 8468 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 8468 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 19:14:11.877  INFO 8468 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 19:14:13.971  INFO 8468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 19:14:14.048  INFO 8468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2021-03-31 19:14:14.699  INFO 8468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 19:14:15.199  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 19:14:15.216  INFO 8468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 19:14:15.216  INFO 8468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 19:14:15.941  INFO 8468 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 19:14:15.958  INFO 8468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 19:14:15.958  INFO 8468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3979 ms
+2021-03-31 19:14:16.303  INFO 8468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 19:14:16.618  INFO 8468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 19:14:17.684  INFO 8468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 19:14:19.798  INFO 8468 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 19:14:21.274  INFO 8468 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:14:21.302  INFO 8468 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 19:14:21.514  INFO 8468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:14:21.670  INFO 8468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 19:14:22.258  INFO 8468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 19:14:22.284  INFO 8468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 19:14:22.354  INFO 8468 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 19:14:22.544  INFO 8468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 19:14:22.549  INFO 8468 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 11.848 seconds (JVM running for 19.793)
+2021-03-31 19:16:22.999  INFO 8468 --- [http-nio-2021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 19:16:23.000  INFO 8468 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 19:16:23.012  INFO 8468 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-03-31 19:16:23.997  WARN 8468 --- [http-nio-2021-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [127] milliseconds.
+2021-03-31 19:22:07.166  INFO 8468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:22:07.167  INFO 8468 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:23:34.480  INFO 7780 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 7780 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 19:23:34.486  INFO 7780 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 19:23:36.748  INFO 7780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 19:23:36.866  INFO 7780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+2021-03-31 19:23:37.916  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 19:23:38.296  INFO 7780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 19:23:38.310  INFO 7780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 19:23:38.311  INFO 7780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 19:23:38.962  INFO 7780 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 19:23:38.982  INFO 7780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 19:23:38.982  INFO 7780 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4405 ms
+2021-03-31 19:23:39.243  INFO 7780 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 19:23:39.446  INFO 7780 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 19:23:40.065  INFO 7780 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 19:23:41.222  INFO 7780 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 19:23:42.445  INFO 7780 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:23:42.468  INFO 7780 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 19:23:42.587  INFO 7780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:23:42.690  INFO 7780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 19:23:43.198  INFO 7780 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 19:23:43.217  INFO 7780 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 19:23:43.274  INFO 7780 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 19:23:43.448  INFO 7780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 19:23:43.455  INFO 7780 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 9.771 seconds (JVM running for 12.238)
+2021-03-31 19:26:18.472  INFO 7780 --- [http-nio-2021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 19:26:18.473  INFO 7780 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 19:26:18.488  INFO 7780 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-03-31 19:26:19.481  WARN 7780 --- [http-nio-2021-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
+2021-03-31 19:26:50.424 ERROR 7780 --- [http-nio-2021-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Optional int parameter 'category_id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.] with root cause
+
+java.lang.IllegalStateException: Optional int parameter 'category_id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:246) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:116) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-03-31 19:27:43.434  INFO 7780 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:27:43.435  INFO 7780 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:28:01.953  INFO 3296 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 3296 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 19:28:01.959  INFO 3296 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 19:28:04.699  INFO 3296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 19:28:04.824  INFO 3296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102ms. Found 0 repository interfaces.
+2021-03-31 19:28:05.408  INFO 3296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 19:28:05.828  INFO 3296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 19:28:05.844  INFO 3296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 19:28:05.845  INFO 3296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 19:28:06.485  INFO 3296 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 19:28:06.500  INFO 3296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 19:28:06.501  INFO 3296 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4412 ms
+2021-03-31 19:28:06.751  INFO 3296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 19:28:06.950  INFO 3296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 19:28:07.653  INFO 3296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 19:28:08.947  INFO 3296 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 19:28:10.258  INFO 3296 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:28:10.283  INFO 3296 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 19:28:10.420  INFO 3296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:28:10.515  INFO 3296 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 19:28:11.199  INFO 3296 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 19:28:11.241  INFO 3296 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 19:28:11.383  INFO 3296 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 19:28:11.615  INFO 3296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 19:28:11.622  INFO 3296 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 10.598 seconds (JVM running for 13.099)
+2021-03-31 19:29:19.421  INFO 3296 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 19:29:19.422  INFO 3296 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 19:29:19.439  INFO 3296 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2021-03-31 19:29:20.035  WARN 3296 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [165] milliseconds.
+2021-03-31 19:29:25.145 ERROR 3296 --- [http-nio-2021-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: null] with root cause
+
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Integer.parseInt(Integer.java:614) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:770) ~[na:na]
+	at com.laptrinhoop.controller.admin.ProductsAdminController.index(ProductsAdminController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-03-31 19:29:43.426 ERROR 3296 --- [http-nio-2021-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NumberFormatException: null] with root cause
+
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Integer.parseInt(Integer.java:614) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:770) ~[na:na]
+	at com.laptrinhoop.controller.admin.ProductsAdminController.index(ProductsAdminController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-03-31 19:31:11.091  INFO 3296 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:31:11.091  INFO 3296 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:31:21.219  INFO 9932 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 9932 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 19:31:21.227  INFO 9932 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 19:31:23.386  INFO 9932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 19:31:23.486  INFO 9932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2021-03-31 19:31:24.407  INFO 9932 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 19:31:24.778  INFO 9932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 19:31:24.791  INFO 9932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 19:31:24.792  INFO 9932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 19:31:25.352  INFO 9932 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 19:31:25.366  INFO 9932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 19:31:25.367  INFO 9932 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4045 ms
+2021-03-31 19:31:25.603  INFO 9932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 19:31:25.794  INFO 9932 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 19:31:26.417  INFO 9932 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 19:31:27.593  INFO 9932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 19:31:28.635  INFO 9932 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 19:31:28.658  INFO 9932 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 19:31:28.788  INFO 9932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 19:31:28.882  INFO 9932 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 19:31:29.311  INFO 9932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 19:31:29.335  INFO 9932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 19:31:29.416  INFO 9932 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 19:31:29.576  INFO 9932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 19:31:29.582  INFO 9932 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 9.198 seconds (JVM running for 11.52)
+2021-03-31 19:31:41.241  INFO 9932 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 19:31:41.242  INFO 9932 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 19:31:41.259  INFO 9932 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-03-31 19:31:42.211  WARN 9932 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [135] milliseconds.
+2021-03-31 20:22:58.093  INFO 9932 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:22:58.095  INFO 9932 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:23:08.588  INFO 312 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 312 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:23:08.598  INFO 312 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:23:11.211  INFO 312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:23:11.366  INFO 312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117ms. Found 0 repository interfaces.
+2021-03-31 20:23:12.143  INFO 312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:23:12.718  INFO 312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:23:12.744  INFO 312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:23:12.745  INFO 312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:23:13.665  INFO 312 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:23:13.684  INFO 312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:23:13.685  INFO 312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4946 ms
+2021-03-31 20:23:14.047  INFO 312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:23:14.336  INFO 312 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:23:15.287  INFO 312 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:23:17.343  INFO 312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:23:18.777  INFO 312 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:23:18.808  INFO 312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:23:18.965  INFO 312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:23:19.195  INFO 312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:23:20.378  INFO 312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:23:20.438  INFO 312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:23:20.527  INFO 312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:23:20.738  INFO 312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:23:20.745  INFO 312 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 13.48 seconds (JVM running for 17.257)
+2021-03-31 20:23:57.323  INFO 312 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:23:57.324  INFO 312 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:23:57.336  INFO 312 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-03-31 20:23:58.338  WARN 312 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [200] milliseconds.
+2021-03-31 20:38:29.775  INFO 312 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:38:29.776  INFO 312 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:38:43.033  INFO 9260 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 9260 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:38:43.050  INFO 9260 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:38:47.222  INFO 9260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:38:47.586  INFO 9260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 248ms. Found 0 repository interfaces.
+2021-03-31 20:38:48.852  INFO 9260 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:38:49.550  INFO 9260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:38:49.579  INFO 9260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:38:49.580  INFO 9260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:38:50.566  INFO 9260 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:38:50.586  INFO 9260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:38:50.587  INFO 9260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7330 ms
+2021-03-31 20:38:51.011  INFO 9260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:38:51.364  INFO 9260 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:38:52.834  INFO 9260 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:38:55.822  INFO 9260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:38:58.095  INFO 9260 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:38:58.130  INFO 9260 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:38:58.407  INFO 9260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:38:58.564  INFO 9260 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:38:59.261  INFO 9260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:38:59.296  INFO 9260 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:38:59.440  INFO 9260 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:38:59.726  INFO 9260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:38:59.737  INFO 9260 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 18.305 seconds (JVM running for 22.26)
+2021-03-31 20:39:28.064  INFO 9260 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:39:28.065  INFO 9260 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:39:28.079  INFO 9260 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-03-31 20:39:30.283  WARN 9260 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [503] milliseconds.
+2021-03-31 20:40:25.307  INFO 9260 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:40:25.308  INFO 9260 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:40:38.757  INFO 12228 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 12228 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:40:38.762  INFO 12228 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:40:43.222  INFO 12228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:40:43.382  INFO 12228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
+2021-03-31 20:40:44.655  INFO 12228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:40:45.256  INFO 12228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:40:45.287  INFO 12228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:40:45.288  INFO 12228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:40:46.205  INFO 12228 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:40:46.223  INFO 12228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:40:46.224  INFO 12228 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7267 ms
+2021-03-31 20:40:46.720  INFO 12228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:40:47.084  INFO 12228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:40:48.255  INFO 12228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:40:50.238  INFO 12228 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:40:52.082  INFO 12228 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:40:52.112  INFO 12228 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:40:52.346  INFO 12228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:40:52.500  INFO 12228 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:40:53.263  INFO 12228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:40:53.288  INFO 12228 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:40:53.384  INFO 12228 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:40:53.701  INFO 12228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:40:53.713  INFO 12228 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 16.687 seconds (JVM running for 21.245)
+2021-03-31 20:41:04.295  INFO 12228 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:41:04.296  INFO 12228 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:41:04.307  INFO 12228 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-03-31 20:41:06.985  WARN 12228 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [183] milliseconds.
+2021-03-31 20:43:55.791  INFO 12228 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:43:55.792  INFO 12228 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:44:07.949  INFO 9296 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 9296 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:44:07.963  INFO 9296 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:44:12.109  INFO 9296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:44:12.263  INFO 9296 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130ms. Found 0 repository interfaces.
+2021-03-31 20:44:14.362  INFO 9296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:44:15.307  INFO 9296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:44:15.327  INFO 9296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:44:15.328  INFO 9296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:44:16.324  INFO 9296 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:44:16.354  INFO 9296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:44:16.354  INFO 9296 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8103 ms
+2021-03-31 20:44:16.776  INFO 9296 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:44:17.128  INFO 9296 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:44:18.444  INFO 9296 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:44:20.309  INFO 9296 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:44:22.074  INFO 9296 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:44:22.109  INFO 9296 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:44:22.350  INFO 9296 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:44:22.604  INFO 9296 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:44:23.568  INFO 9296 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:44:23.607  INFO 9296 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:44:23.705  INFO 9296 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:44:23.924  INFO 9296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:44:23.933  INFO 9296 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 17.535 seconds (JVM running for 21.658)
+2021-03-31 20:44:51.107  INFO 9296 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:44:51.108  INFO 9296 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:44:51.128  INFO 9296 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2021-03-31 20:44:53.206  WARN 9296 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [440] milliseconds.
+2021-03-31 20:46:25.861  INFO 9296 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:46:25.862  INFO 9296 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:46:36.203  INFO 8504 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 8504 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:46:36.214  INFO 8504 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:46:39.581  INFO 8504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:46:39.713  INFO 8504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 0 repository interfaces.
+2021-03-31 20:46:41.113  INFO 8504 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:46:41.855  INFO 8504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:46:41.891  INFO 8504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:46:41.891  INFO 8504 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:46:43.050  INFO 8504 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:46:43.082  INFO 8504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:46:43.083  INFO 8504 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6752 ms
+2021-03-31 20:46:43.609  INFO 8504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:46:44.041  INFO 8504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:46:45.259  INFO 8504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:46:48.014  INFO 8504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:46:49.639  INFO 8504 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:46:49.663  INFO 8504 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:46:49.810  INFO 8504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:46:49.924  INFO 8504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:46:50.478  INFO 8504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:46:50.541  INFO 8504 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:46:50.622  INFO 8504 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:46:50.789  INFO 8504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:46:50.794  INFO 8504 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 15.753 seconds (JVM running for 19.895)
+2021-03-31 20:46:56.401  INFO 8504 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:46:56.402  INFO 8504 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:46:56.416  INFO 8504 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-03-31 20:46:57.456  WARN 8504 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+2021-03-31 20:47:47.887  INFO 8504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:47:47.888  INFO 8504 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:47:59.217  INFO 11588 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 11588 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:47:59.223  INFO 11588 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:48:21.843  INFO 2488 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 2488 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:48:21.849  INFO 2488 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:48:24.916  INFO 2488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:48:25.099  INFO 2488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157ms. Found 0 repository interfaces.
+2021-03-31 20:48:26.128  INFO 2488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:48:26.556  INFO 2488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:48:26.573  INFO 2488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:48:26.573  INFO 2488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:48:27.219  INFO 2488 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:48:27.237  INFO 2488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:48:27.238  INFO 2488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5244 ms
+2021-03-31 20:48:27.552  INFO 2488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:48:27.800  INFO 2488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:48:28.542  INFO 2488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:48:30.001  INFO 2488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:48:31.300  INFO 2488 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:48:31.323  INFO 2488 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:48:31.469  INFO 2488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:48:31.588  INFO 2488 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:48:32.324  INFO 2488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:48:32.386  INFO 2488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:48:32.455  INFO 2488 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:48:32.621  INFO 2488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:48:32.627  INFO 2488 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 11.862 seconds (JVM running for 14.712)
+2021-03-31 20:49:17.153  INFO 2488 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:49:17.154  INFO 2488 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:49:17.165  INFO 2488 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-03-31 20:49:18.323  WARN 2488 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [223] milliseconds.
+2021-03-31 20:50:06.742  INFO 2488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:50:06.743  INFO 2488 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:50:15.770  INFO 5772 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 5772 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:50:15.776  INFO 5772 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:50:18.482  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:50:18.656  INFO 5772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+2021-03-31 20:50:19.816  INFO 5772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:50:20.420  INFO 5772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:50:20.434  INFO 5772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:50:20.435  INFO 5772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:50:21.123  INFO 5772 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:50:21.138  INFO 5772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:50:21.139  INFO 5772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5241 ms
+2021-03-31 20:50:21.409  INFO 5772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:50:21.625  INFO 5772 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:50:22.422  INFO 5772 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:50:23.782  INFO 5772 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:50:25.063  INFO 5772 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:50:25.092  INFO 5772 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:50:25.247  INFO 5772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:50:25.357  INFO 5772 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:50:25.878  INFO 5772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:50:25.941  INFO 5772 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:50:26.014  INFO 5772 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:50:26.186  INFO 5772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:50:26.191  INFO 5772 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 11.364 seconds (JVM running for 13.991)
+2021-03-31 20:50:56.389  INFO 5772 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:50:56.390  INFO 5772 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:50:56.402  INFO 5772 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-03-31 20:50:57.493  WARN 5772 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+2021-03-31 20:52:15.549  INFO 5772 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:52:15.550  INFO 5772 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:52:26.050  INFO 6804 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 6804 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:52:26.060  INFO 6804 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:52:28.844  INFO 6804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:52:28.928  INFO 6804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2021-03-31 20:52:30.134  INFO 6804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:52:30.711  INFO 6804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:52:30.736  INFO 6804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:52:30.737  INFO 6804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:52:31.706  INFO 6804 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:52:31.730  INFO 6804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:52:31.731  INFO 6804 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5570 ms
+2021-03-31 20:52:32.187  INFO 6804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:52:32.441  INFO 6804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:52:33.220  INFO 6804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:52:34.589  INFO 6804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:52:36.005  INFO 6804 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:52:36.048  INFO 6804 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:52:36.186  INFO 6804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:52:36.301  INFO 6804 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:52:36.790  INFO 6804 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:52:36.813  INFO 6804 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:52:36.885  INFO 6804 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:52:37.041  INFO 6804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:52:37.046  INFO 6804 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 12.179 seconds (JVM running for 15.254)
+2021-03-31 20:52:48.024  INFO 6804 --- [http-nio-2021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:52:48.025  INFO 6804 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:52:48.040  INFO 6804 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-03-31 20:52:48.986  WARN 6804 --- [http-nio-2021-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [150] milliseconds.
+2021-03-31 20:56:07.263  INFO 6804 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:56:07.277  INFO 6804 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:56:17.035  INFO 10420 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 10420 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 20:56:17.040  INFO 10420 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 20:56:20.073  INFO 10420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 20:56:20.183  INFO 10420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 0 repository interfaces.
+2021-03-31 20:56:21.102  INFO 10420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 20:56:21.570  INFO 10420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 20:56:21.587  INFO 10420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 20:56:21.588  INFO 10420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 20:56:22.303  INFO 10420 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 20:56:22.323  INFO 10420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 20:56:22.323  INFO 10420 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5164 ms
+2021-03-31 20:56:22.653  INFO 10420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 20:56:22.930  INFO 10420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 20:56:23.764  INFO 10420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 20:56:25.565  INFO 10420 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 20:56:26.848  INFO 10420 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 20:56:26.869  INFO 10420 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 20:56:27.015  INFO 10420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 20:56:27.125  INFO 10420 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 20:56:27.696  INFO 10420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 20:56:27.729  INFO 10420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 20:56:27.815  INFO 10420 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 20:56:27.988  INFO 10420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 20:56:27.994  INFO 10420 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 12.046 seconds (JVM running for 14.852)
+2021-03-31 20:56:48.901  INFO 10420 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 20:56:48.901  INFO 10420 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 20:56:48.916  INFO 10420 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-03-31 20:56:50.156  WARN 10420 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [280] milliseconds.
+2021-03-31 21:06:50.150  INFO 812 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 812 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 21:06:50.174  INFO 812 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 21:06:53.932  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 21:06:54.076  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 0 repository interfaces.
+2021-03-31 21:06:54.708  INFO 812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 21:06:55.232  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 21:06:55.248  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 21:06:55.249  INFO 812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 21:06:56.044  INFO 812 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 21:06:56.062  INFO 812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 21:06:56.063  INFO 812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5785 ms
+2021-03-31 21:06:56.365  INFO 812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 21:06:56.632  INFO 812 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 21:06:57.490  INFO 812 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 21:06:59.028  INFO 812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 21:07:00.903  INFO 812 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 21:07:00.927  INFO 812 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 21:07:01.068  INFO 812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:07:01.196  INFO 812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 21:07:02.014  INFO 812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 21:07:02.049  INFO 812 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 21:07:02.125  INFO 812 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 21:07:02.340  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 21:07:02.345  INFO 812 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 13.772 seconds (JVM running for 16.652)
+2021-03-31 21:07:03.627  INFO 812 --- [http-nio-2021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:07:03.628  INFO 812 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:07:03.639  INFO 812 --- [http-nio-2021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-03-31 21:07:04.587  WARN 812 --- [http-nio-2021-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [136] milliseconds.
+2021-03-31 21:10:41.863  INFO 812 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:10:41.863  INFO 812 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 21:10:50.767  INFO 9584 --- [main] c.l.SpringBootWebsales2020Application    : Starting SpringBootWebsales2020Application on Admin with PID 9584 (D:\Final\cdw.mobileshop.com\target\classes started by Administrator in D:\Final\cdw.mobileshop.com)
+2021-03-31 21:10:50.774  INFO 9584 --- [main] c.l.SpringBootWebsales2020Application    : No active profile set, falling back to default profiles: default
+2021-03-31 21:10:53.561  INFO 9584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-31 21:10:53.697  INFO 9584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 0 repository interfaces.
+2021-03-31 21:10:54.812  INFO 9584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-31 21:10:55.277  INFO 9584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2021 (http)
+2021-03-31 21:10:55.296  INFO 9584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-31 21:10:55.297  INFO 9584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-03-31 21:10:56.012  INFO 9584 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-31 21:10:56.028  INFO 9584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-31 21:10:56.029  INFO 9584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5125 ms
+2021-03-31 21:10:56.353  INFO 9584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-03-31 21:10:56.704  INFO 9584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-03-31 21:10:57.596  INFO 9584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-03-31 21:10:59.300  INFO 9584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-31 21:11:00.751  INFO 9584 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-31 21:11:00.776  INFO 9584 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-31 21:11:00.914  INFO 9584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:11:01.033  INFO 9584 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-03-31 21:11:01.572  INFO 9584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-03-31 21:11:01.599  INFO 9584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-03-31 21:11:01.694  INFO 9584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-03-31 21:11:01.879  INFO 9584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2021 (http) with context path ''
+2021-03-31 21:11:01.884  INFO 9584 --- [main] c.l.SpringBootWebsales2020Application    : Started SpringBootWebsales2020Application in 12.187 seconds (JVM running for 15.549)
+2021-03-31 21:11:11.223  INFO 9584 --- [http-nio-2021-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-31 21:11:11.224  INFO 9584 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-31 21:11:11.235  INFO 9584 --- [http-nio-2021-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-03-31 21:11:12.192  WARN 9584 --- [http-nio-2021-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [150] milliseconds.
+2021-03-31 21:19:52.047  INFO 9584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-31 21:19:52.049  INFO 9584 --- [SpringContextShutdownHook] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
