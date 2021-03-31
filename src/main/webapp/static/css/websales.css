@@ -59,7 +59,7 @@ header .nn-company h4{
 }
 .navbar a{
 	font-variant: small-caps;
-	color: #e6aa00  !important;
+	color: #FED101  !important;
 }
 .nn-lang a{
 	padding: 10px 0 0 10px !important;
@@ -96,8 +96,8 @@ footer a{
 }
 .nn-prod .panel-footer{
 	font-family: impact;
-	font-size: 20px;
-	color: gray;
+	font-size: 15px;
+	color: darkred;
 	padding: 5px;
 }
 .nn-prod .panel{
