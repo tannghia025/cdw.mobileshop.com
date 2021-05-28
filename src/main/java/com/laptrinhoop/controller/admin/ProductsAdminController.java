@@ -31,9 +31,14 @@ public class ProductsAdminController {
 	private IHttpService http;
 
 	@RequestMapping("index")
-	public String index(Model model) {
+	public String index(Model model,@RequestParam(value = "category_id",required = false) Integer categoryID) {
 		model.addAttribute("product", new Product());
-		model.addAttribute("list", productService.findAll());
+		if(categoryID !=null &&categoryID > 0 ){
+			model.addAttribute("list",productService.findAllProductByCategory(categoryID));
+		}else{
+			model.addAttribute("list", productService.findAll());
+
+		}
 		return "admin/product/index";
 	}
 
