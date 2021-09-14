@@ -31,6 +31,7 @@ public class CartController {
 	@RequestMapping("/product/add-to-cart/{id}")
 	public String addCart(@PathVariable("id") Integer id) {
 		cart.addCart(id);
+	 String ok = getInfo();
 		return getInfo();
 	}
 
@@ -56,7 +57,7 @@ public class CartController {
 	}
 
 	private String getInfo() {
-		return String.format("{\"count\":%d,\"amount\":%.2f}", cart.getCountCart(), cart.getAmountCart());
+		return String.format("{\"count\":%d,\"amount\":%s}", cart.getCountCart(), cart.getAmountCart()+"");
 	}
 
 }

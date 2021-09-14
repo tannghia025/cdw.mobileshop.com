@@ -34,8 +34,6 @@ public class ProductController {
 	@Autowired
 	private ICookieService cookieService;
 
-	@Autowired
-	private IMailService mailService;
 
 	@Autowired
 	private IHttpService httpService;
@@ -92,14 +90,14 @@ public class ProductController {
 		model.addAttribute("list", listP);
 		return "product/list";
 	}
-
-	@ResponseBody
-	@RequestMapping("/product/send-friend")
-	public String sendFriend(@RequestParam("id") Integer id, @RequestParam("from") String from,
-			@RequestParam("to") String to, @RequestParam("subject") String subject, @RequestParam("body") String body) {
-		String url = httpService.getCurrentUrl().replace("send-friend", "detail/" + id);
-		mailService.send(to, subject, body + "<hr/><a href='" + url + "'>Xem chi tiết</a>");
-		return "Đã gửi thông tin thành công";
-	}
+//
+//	@ResponseBody
+//	@RequestMapping("/product/send-friend")
+//	public String sendFriend(@RequestParam("id") Integer id, @RequestParam("from") String from,
+//			@RequestParam("to") String to, @RequestParam("subject") String subject, @RequestParam("body") String body) {
+//		String url = httpService.getCurrentUrl().replace("send-friend", "detail/" + id);
+//		mailService.send(to, subject, body + "<hr/><a href='" + url + "'>Xem chi tiết</a>");
+//		return "Đã gửi thông tin thành công";
+//	}
 
 }

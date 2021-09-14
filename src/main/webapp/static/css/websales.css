@@ -32,7 +32,7 @@
 }
 
 
-}
+
 /*-----HEADER-----*/
 header{
 	position: relative;
@@ -129,7 +129,6 @@ footer a{
 }
 
 .nn-detail-relatives img{
-	width: 100px;
 	height: 100px;
 	box-shadow: 0 0 2px gray;
 	border-radius: 5px;

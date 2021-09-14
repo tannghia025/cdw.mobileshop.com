@@ -49,8 +49,7 @@
 				<div class="icon-box-text last-reset">
 					<h4>Hotline</h4>
 					<p>
-						Nhanh chóng - Dễ dàng<br> <span style="color: #ff0000;"><strong>0982
-								78 58 28</strong></span>
+						Nhanh chóng - Dễ dàng<br> <span style="color: #ff0000;"><strong>0961417004</strong></span>
 					</p>
 				</div>
 			</div>
@@ -75,17 +74,17 @@
 					</div>
 				</a>
 				<div class="icon-box-text last-reset">
-					<a class="plain" href="https://goo.gl/maps/xrek3MUg7XsCfkka8"
+					<a class="plain" href="https://goo.gl/maps/hJtxwMRDrtM65B3d7"
 						target="_blank" rel="noopener noreferrer"> </a>
 					<h4>
-						<a class="plain" href="https://goo.gl/maps/xrek3MUg7XsCfkka8"
+						<a class="plain" href="https://goo.gl/maps/hJtxwMRDrtM65B3d7"
 							target="_blank" rel="noopener noreferrer"></a><a
 							href="https://goo.gl/maps/xrek3MUg7XsCfkka8" target="_blank"
 							rel="noopener noreferrer">Địa chỉ</a>
 					</h4>
 					<p>
-						<a href="https://goo.gl/maps/xrek3MUg7XsCfkka8" target="_blank"
-							rel="noopener noreferrer">25 MAN THIỆN PHƯỜNG HIỆP PHÚ QUẬN 9</a>
+						<a href="https://goo.gl/maps/hJtxwMRDrtM65B3d7" target="_blank"
+							rel="noopener noreferrer">Đại học Nông Lâm TPHCM</a>
 					</p>
 				</div>
 			</div>

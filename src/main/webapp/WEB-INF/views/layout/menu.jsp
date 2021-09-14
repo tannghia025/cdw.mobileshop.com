@@ -47,10 +47,10 @@
 					</ul>
 				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right nn-lang">
+		<!-- 	<ul class="nav navbar-nav navbar-right nn-lang">
 				<li><a href="#"><img src="/static/images/en.png"></a></li>
 				<li><a href="#"><img src="/static/images/vi.png"></a></li>
-			</ul>
+			</ul> -->
 		</div>
 	</div>
 	</div>

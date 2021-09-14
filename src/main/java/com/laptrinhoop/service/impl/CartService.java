@@ -66,7 +66,7 @@ public class CartService implements ICartService {
 		Collection<Product> ps = this.getItemsCart();
 		double amount = 0;
 		for (Product product : ps) {
-			amount += (product.getQuantity() * (product.getUnitPrice() - (product.getUnitPrice() * product.getDiscount())));
+			amount += Math.abs((product.getQuantity() * (product.getUnitPrice() - (product.getUnitPrice() * product.getDiscount()))));
 		}
 		return amount;
 	}
