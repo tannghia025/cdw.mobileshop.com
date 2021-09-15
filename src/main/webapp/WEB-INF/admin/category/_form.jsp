@@ -4,7 +4,7 @@
 <form:form modelAttribute="category" action="">
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h4 class="panel-title"> THAO TÁC LOẠI SẢN PHẨM</h4>
+			<h4 class="panel-title"> THAO TÁC NGÀNH HÀNG SẢN PHẨM</h4>
 		</div>
 
 		<div class="panel-body">

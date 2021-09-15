@@ -1,8 +1,8 @@
 <%@ page pageEncoding="utf-8"%>
 <%@ include file="/common/taglib.jsp"%>
-<h3>QUẢN LÝ LOẠI SẢN PHẨM</h3>
+<h3>QUẢN LÝ NGÀNH HÀNG SẢN PHẨM</h3>
 <ul class="nav nav-tabs">
-	<li class="active"><a data-toggle="tab" href="#edit">LOẠI SẢN PHẨM</a></li>
+	<li class="active"><a data-toggle="tab" href="#edit">NGÀNH HÀNG SẢN PHẨM</a></li>
 	<li><a data-toggle="tab" href="#list">DANH SÁCH</a></li>
 </ul>
 

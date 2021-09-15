@@ -19,10 +19,10 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 		DataSourceTransactionManagerAutoConfiguration.class, 
 		HibernateJpaAutoConfiguration.class 
 	})
-public class SpringBootWebsales2020Application {
+public class MobileShopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootWebsales2020Application.class, args);
+		SpringApplication.run(MobileShopApplication.class, args);
 	}
 
 }

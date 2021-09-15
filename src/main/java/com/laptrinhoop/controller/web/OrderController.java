@@ -46,7 +46,7 @@ public class OrderController {
 
 	@PostMapping("/order/checkout")
 	public String checkOut(Model model, @Validated @ModelAttribute("order") Order or) {
-		// orderService.addOrderAndOrderDetail(or, cartService);
+		 orderService.addOrderAndOrderDetail(or, cartService);
 //		rabbit.converToSendRabbit(or, cartService);
 		cartService.clear();
 		return "redirect:/home/index";

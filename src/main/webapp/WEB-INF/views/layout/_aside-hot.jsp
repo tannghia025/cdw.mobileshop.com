@@ -7,8 +7,8 @@
 	</div>
 	<div class="list-group">
 		<a href="/product/list-by-hot/hangmoi" class="list-group-item">Hàng mới</a> 
-		<a href="/product/list-by-hot/banchay" class="list-group-item">Hàng bán chạy</a> 
+<!-- 		<a href="/product/list-by-hot/banchay" class="list-group-item">Hàng bán chạy</a>  -->
 		<a href="/product/list-by-hot/xemnhieu" class="list-group-item">Hàng xem nhiều</a> 
-		<a href="/product/list-by-hot/giamgia" class="list-group-item">Hàng giảm giá</a>
+<!-- 		<a href="/product/list-by-hot/giamgia" class="list-group-item">Hàng giảm giá</a> -->
 	</div>
 </div>

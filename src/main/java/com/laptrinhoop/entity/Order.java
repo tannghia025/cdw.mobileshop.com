@@ -58,7 +58,7 @@ public class Order {
 	@JoinColumn(name = "customerId")
 	Customer customer;
 
-	@OneToMany(mappedBy = "order", fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "order", fetch = FetchType.EAGER)
 	List<OrderDetail> orderDetails;
 
 	public Integer getId() {

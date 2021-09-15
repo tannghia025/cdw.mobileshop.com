@@ -25,7 +25,7 @@
 						<li class="divider"></li>
 						<li><a href="/admin/order/index">Đơn hàng</a></li>
 					</ul></li>
-				<li class="dropdown"><a class="dropdown-toggle"
+				<!-- <li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="#"> <span
 						class="glyphicon glyphicon-stats"></span> Báo cáo <span
 						class="caret"></span>
@@ -40,7 +40,7 @@
 						<li><a href="/admin/revenue/year">Doanh số theo năm</a></li>
 						<li><a href="/admin/revenue/quarter">Doanh số theo quý</a></li>
 						<li><a href="/admin/revenue/month">Doanh số theo tháng</a></li>
-					</ul></li>
+					</ul></li> -->
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="#"> <span
 						class="glyphicon glyphicon-lock"></span>Security<span
@@ -48,8 +48,8 @@
 				</a>
 					<ul class="dropdown-menu">
 						<li><a href="/admin/home/document">Create Document</a></li>
-						<li><a href="/admin/home/logoff">Sign Out</a></li>
-						<li><a href="/admin/home/change">Change Password</a></li>
+						<li><a href="/account/logoff">Đăng Xuất</a></li>
+						<li><a href="/account/change">Đổi Mật khẩu</a></li>
 						<li class="divider"></li>
 						<li><a href="/admin/customer/index?permission">User
 								Permissions</a></li>

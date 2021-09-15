@@ -41,9 +41,9 @@
 		</tbody>
 	</table>
 	<div class="panel-footer">
-		<a href="${backurl}" class="btn btn-primary">Add More</a>
-		<button class="btn btn-danger btn-cart-clear">Clear</button>
-		<a href="/order/checkout" class="btn btn-success">Checkout</a>
+		<%-- <a href="${backurl}" class="btn btn-primary">Add More</a> --%>
+		<button class="btn btn-danger btn-cart-clear">Xoá Sạch</button>
+		<a href="/order/checkout" class="btn btn-success">Mua Hàng</a>
 			<div class="pull-right text-danger">${message}</div>
 	</div>
 </div>

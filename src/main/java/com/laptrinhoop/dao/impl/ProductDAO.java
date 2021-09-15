@@ -30,16 +30,10 @@ public class ProductDAO extends GeneraDAO<Product, Integer> implements IProductD
 		case "hangmoi":
 			hql = "From Product p where year(current_date()) - year(p.productDate) < 10 ";
 			break;
-		// sắp xếp chi tiết đơn hàng theo số lượng bán giảm dần
-		case "banchay":
-			hql = "From Product p order by size (p.orderDetails) DESC";
-			break;
 		case "xemnhieu":
 			hql = "FROM Product p ORDER BY p.viewCount DESC";
 			break;
-		case "giamgia":
-			hql = "From Product p Where p.discount > 0 ORDER BY p.discount DESC";
-			break;
+		
 
 		default:
 			break;

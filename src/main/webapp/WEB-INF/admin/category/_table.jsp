@@ -3,7 +3,7 @@
 
 <div class="panel panel-default">
 	<div class="panel-heading">
-	<h4 class="panel-title"> DANH SÁCH LOẠI SẢN PHẨM</h4>
+	<h4 class="panel-title"> DANH SÁCH NGÀNH HÀNG SẢN PHẨM</h4>
 	</div>
 	<table class="table table-hover">
 		<thead>

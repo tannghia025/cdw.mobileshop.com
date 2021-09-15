@@ -5,9 +5,9 @@
 	<div class="col-sm-9">
 		<jsp:include page="_header-info.jsp"></jsp:include>
 	</div>
-	<div class="col-sm-3">
+<%-- 	<div class="col-sm-3">
 		<c:import url="/header/cart"></c:import>
-	</div>
+	</div> --%>
 </div>
 
 
