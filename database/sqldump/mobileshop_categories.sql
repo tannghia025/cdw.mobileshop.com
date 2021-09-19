@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.23, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.26, for Win64 (x86_64)
 --
 -- Host: localhost    Database: mobileshop
 -- ------------------------------------------------------
--- Server version	8.0.23
+-- Server version	8.0.26
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -36,7 +36,7 @@ CREATE TABLE `categories` (
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` VALUES (1000,'Watches','Đồng hồ thời trang'),(1001,'Laptops','Máy tính xách tay'),(1002,'Cameras','Máy Ảnh'),(1003,'Mobiles','Điện thoại di động'),(1012,'PCs','Máy tính để bàn');
+INSERT INTO `categories` VALUES (1000,'Watches','Đồng hồ thời trang'),(1001,'Laptops','Máy tính xách tay'),(1002,'Cameras','Máy Ảnh'),(1003,'Mobiles','Điện thoại di động');
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-27 14:09:14
+-- Dump completed on 2021-09-15  8:45:21
