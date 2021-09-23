@@ -36,7 +36,7 @@ public class AccountService extends GeneralService<Customer, String> implements 
 	@Override
 	public boolean sendActivedUser(Customer user) {
 		String to = user.getEmail();
-		String subject = "Welcome to WEB SALES ";
+		String subject = "Welcome to MOBIlE SHOP ";
 		String url = http.getCurrentUrl().replace("register", "activate/" + http.encode(user.getId()));
 		String body = "<a href='" + url + "'>Click to activate your account!</a>";
 		return mailer.send(to, subject, body);

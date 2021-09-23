@@ -38,7 +38,7 @@ public class MailService implements IMailService {
 			helper.setText(body, true);
 
 			// Người gửi
-			String from = "Kỹ thuật lập trình hướng đối tượng <tuanvuplbp@gmail.com>";
+			String from = "[CHUYÊN ĐỀ WEB] THƯ HỆ THỐNG MOBILESHOP <tannghianguyen03@gmail.com>";
 			if (others.length > 0 && others[0] != null) {
 				from = String.format("%s <%s>", others[0], others[0]);
 			}
