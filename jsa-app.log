@@ -224,3 +224,4 @@ Consider defining a bean of type 'com.laptrinhoop.dao.IReportDAO' in your config
 2021-09-23 09:43:03.449  INFO 7840 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-09-23 09:43:03.469  INFO 7840 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
 2021-09-23 09:43:06.129  WARN 7840 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+2021-09-24 08:24:44.194  INFO 10312 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 8.726 seconds (JVM running for 9.178)
