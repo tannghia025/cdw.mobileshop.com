@@ -67,7 +67,7 @@ public class AccountController {
 		} else {
 			http.setSession("user", user);
 			model.addAttribute("message", "Đăng nhập thành công");
-			cookieService.createCookie("user", username + "," + password, remember ? 15 : 0);
+			cookieService.createCookie("user", username + "," + password, remember ? 15 : 1);
 			String securityUri = http.getSession("security-uri");
 			if (securityUri != null) 
 			{

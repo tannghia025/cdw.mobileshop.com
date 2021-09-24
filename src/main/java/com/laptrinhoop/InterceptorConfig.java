@@ -21,7 +21,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
 	public void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(auth)
 		.addPathPatterns("/account/change","/account/edit","/order/**")
-		.addPathPatterns("/admin/**").excludePathPatterns("/admin/home/index");
+		.addPathPatterns("/admin/**");
 	}
 
 }

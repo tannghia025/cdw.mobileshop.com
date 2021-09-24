@@ -1,226 +1,107 @@
-2021-09-23 08:21:24.960  INFO 5916 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 5916 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 08:21:25.125  INFO 5916 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 08:21:27.238  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 08:21:27.308  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
-2021-09-23 08:21:29.228  INFO 5916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 08:21:30.028  INFO 5916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 08:21:30.054  INFO 5916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 08:21:30.055  INFO 5916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 08:21:30.898  INFO 5916 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 08:21:30.919  INFO 5916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 08:21:30.920  INFO 5916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5611 ms
-2021-09-23 08:21:31.375  INFO 5916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 08:21:31.774  INFO 5916 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 08:21:32.955  INFO 5916 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 08:21:34.963  INFO 5916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 08:21:36.094  INFO 5916 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
-2021-09-23 08:21:36.367  INFO 5916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-23 08:21:36.582  INFO 5916 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-09-23 08:21:37.146  INFO 5916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-23 08:21:37.151  INFO 5916 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 13.958 seconds (JVM running for 16.278)
-2021-09-23 08:26:47.803  INFO 3732 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 3732 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 08:26:47.866  INFO 3732 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 08:26:51.116  INFO 3732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 08:26:51.290  INFO 3732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141ms. Found 0 repository interfaces.
-2021-09-23 08:26:53.171  INFO 3732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 08:26:55.534  INFO 3732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 08:26:55.620  INFO 3732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 08:26:56.137  INFO 3732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 08:26:58.205  INFO 3732 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 08:26:58.259  INFO 3732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 08:26:58.260  INFO 3732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10110 ms
-2021-09-23 08:26:58.975  INFO 3732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 08:26:59.691  INFO 3732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 08:27:01.590  INFO 3732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 08:27:08.077  INFO 3732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 08:27:10.773  WARN 3732 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customersAdminController': Unsatisfied dependency expressed through field 'customerService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'mailer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mailService': Unsatisfied dependency expressed through field 'sender'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2021-09-23 08:27:10.792  INFO 3732 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2021-09-23 08:27:10.854  INFO 3732 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-09-23 08:27:11.201 ERROR 3732 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field sender in com.laptrinhoop.service.impl.MailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
-
-2021-09-23 08:31:15.046  INFO 6952 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 6952 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 08:31:15.061  INFO 6952 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 08:31:20.439  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 08:31:20.666  INFO 6952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151ms. Found 0 repository interfaces.
-2021-09-23 08:31:22.939  INFO 6952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 08:31:24.486  INFO 6952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 08:31:24.526  INFO 6952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 08:31:24.527  INFO 6952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 08:31:26.122  INFO 6952 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 08:31:26.149  INFO 6952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 08:31:26.149  INFO 6952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10770 ms
-2021-09-23 08:31:26.864  INFO 6952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 08:31:27.560  INFO 6952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 08:31:29.530  INFO 6952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 08:31:33.933  INFO 6952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 08:31:35.465  WARN 6952 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customersAdminController': Unsatisfied dependency expressed through field 'customerService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'mailer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.laptrinhoop.service.IMailService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2021-09-23 08:31:35.477  INFO 6952 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2021-09-23 08:31:35.517  INFO 6952 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-09-23 08:31:35.818 ERROR 6952 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field mailer in com.laptrinhoop.service.impl.AccountService required a bean of type 'com.laptrinhoop.service.IMailService' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.laptrinhoop.service.IMailService' in your configuration.
-
-2021-09-23 08:38:06.802  INFO 376 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 376 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 08:38:06.815  INFO 376 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 08:38:09.715  INFO 376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 08:38:09.820  INFO 376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
-2021-09-23 08:38:11.078  INFO 376 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 08:38:12.319  INFO 376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 08:38:12.348  INFO 376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 08:38:12.349  INFO 376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 08:38:13.512  INFO 376 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 08:38:13.541  INFO 376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 08:38:13.541  INFO 376 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6513 ms
-2021-09-23 08:38:14.130  INFO 376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 08:38:14.532  INFO 376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 08:38:16.054  INFO 376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 08:38:18.573  INFO 376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 08:38:19.951  WARN 376 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inventoryAndReportControlller': Unsatisfied dependency expressed through field 'reportService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reportService': Unsatisfied dependency expressed through field 'dao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.laptrinhoop.dao.IReportDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2021-09-23 08:38:19.961  INFO 376 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2021-09-23 08:38:19.990  INFO 376 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-09-23 08:38:20.286 ERROR 376 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field dao in com.laptrinhoop.service.impl.ReportService required a bean of type 'com.laptrinhoop.dao.IReportDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.laptrinhoop.dao.IReportDAO' in your configuration.
-
-2021-09-23 08:45:30.274  INFO 11444 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 11444 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 08:45:30.285  INFO 11444 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 08:45:33.262  INFO 11444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 08:45:33.350  INFO 11444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
-2021-09-23 08:45:34.583  INFO 11444 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 08:45:35.509  INFO 11444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 08:45:35.548  INFO 11444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 08:45:35.549  INFO 11444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 08:45:36.738  INFO 11444 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 08:45:36.770  INFO 11444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 08:45:36.770  INFO 11444 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6205 ms
-2021-09-23 08:45:37.279  INFO 11444 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 08:45:37.698  INFO 11444 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 08:45:38.922  INFO 11444 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 08:45:41.561  INFO 11444 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 08:45:42.955  INFO 11444 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
-2021-09-23 08:45:43.403  INFO 11444 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-23 08:45:43.673  INFO 11444 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-09-23 08:45:44.335  INFO 11444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-23 08:45:44.347  INFO 11444 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 16.117 seconds (JVM running for 17.953)
-2021-09-23 08:50:43.955  INFO 11444 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-23 08:50:43.956  INFO 11444 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-09-23 08:50:43.988  INFO 11444 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
-2021-09-23 08:50:46.122  WARN 11444 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [153] milliseconds.
-2021-09-23 09:06:50.763  INFO 856 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 856 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 09:06:50.778  INFO 856 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 09:06:53.634  INFO 856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 09:06:53.752  INFO 856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
-2021-09-23 09:06:55.108  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 09:06:55.999  INFO 856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 09:06:56.024  INFO 856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 09:06:56.025  INFO 856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 09:06:57.249  INFO 856 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 09:06:57.272  INFO 856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 09:06:57.273  INFO 856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6289 ms
-2021-09-23 09:06:57.792  INFO 856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 09:06:58.229  INFO 856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 09:06:59.421  INFO 856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 09:07:02.091  INFO 856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 09:07:03.513  INFO 856 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
-2021-09-23 09:07:03.884  INFO 856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-23 09:07:04.267  INFO 856 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-09-23 09:07:04.990  INFO 856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-23 09:07:04.996  INFO 856 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 16.169 seconds (JVM running for 17.988)
-2021-09-23 09:07:31.879  INFO 856 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-23 09:07:31.879  INFO 856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-09-23 09:07:31.920  INFO 856 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
-2021-09-23 09:07:35.010  WARN 856 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [588] milliseconds.
-2021-09-23 09:39:55.216  INFO 1948 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 1948 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 09:39:55.224  INFO 1948 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 09:39:57.232  INFO 1948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 09:39:57.318  INFO 1948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 0 repository interfaces.
-2021-09-23 09:39:58.019  INFO 1948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 09:39:59.027  INFO 1948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 09:39:59.063  INFO 1948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 09:39:59.064  INFO 1948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 09:39:59.956  INFO 1948 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 09:39:59.975  INFO 1948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 09:39:59.976  INFO 1948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4504 ms
-2021-09-23 09:40:00.400  INFO 1948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 09:40:00.711  INFO 1948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 09:40:01.681  INFO 1948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 09:40:04.884  INFO 1948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 09:40:07.866  INFO 1948 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
-2021-09-23 09:40:08.795  INFO 1948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-23 09:40:09.552  INFO 1948 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-09-23 09:40:10.812  INFO 1948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-23 09:40:10.821  INFO 1948 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 17.0 seconds (JVM running for 18.362)
-2021-09-23 09:41:53.818  INFO 7840 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 7840 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
-2021-09-23 09:41:53.829  INFO 7840 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
-2021-09-23 09:41:56.942  INFO 7840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-09-23 09:41:57.060  INFO 7840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 0 repository interfaces.
-2021-09-23 09:41:58.808  INFO 7840 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-09-23 09:42:00.112  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-09-23 09:42:00.151  INFO 7840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-09-23 09:42:00.152  INFO 7840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-23 09:42:01.870  INFO 7840 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2021-09-23 09:42:01.938  INFO 7840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-09-23 09:42:01.941  INFO 7840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7821 ms
-2021-09-23 09:42:02.804  INFO 7840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2021-09-23 09:42:03.529  INFO 7840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2021-09-23 09:42:05.463  INFO 7840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2021-09-23 09:42:09.178  INFO 7840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-09-23 09:42:11.069  INFO 7840 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
-2021-09-23 09:42:11.568  INFO 7840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-23 09:42:11.848  INFO 7840 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-09-23 09:42:12.792  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-23 09:42:12.797  INFO 7840 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 21.159 seconds (JVM running for 23.613)
-2021-09-23 09:43:03.448  INFO 7840 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-23 09:43:03.449  INFO 7840 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-09-23 09:43:03.469  INFO 7840 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
-2021-09-23 09:43:06.129  WARN 7840 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+2021-09-24 07:09:10.112  INFO 6244 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 6244 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
+2021-09-24 07:09:10.132  INFO 6244 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
+2021-09-24 07:09:13.427  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-24 07:09:13.549  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 0 repository interfaces.
+2021-09-24 07:09:14.405  INFO 6244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-24 07:09:15.542  INFO 6244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-09-24 07:09:15.563  INFO 6244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-24 07:09:15.564  INFO 6244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-24 07:09:16.445  INFO 6244 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-24 07:09:16.465  INFO 6244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-24 07:09:16.466  INFO 6244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6039 ms
+2021-09-24 07:09:16.894  INFO 6244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-09-24 07:09:17.265  INFO 6244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-24 07:09:18.181  INFO 6244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-09-24 07:09:19.711  INFO 6244 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-24 07:09:20.681  INFO 6244 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-09-24 07:09:20.967  INFO 6244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-24 07:09:21.569  INFO 6244 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-24 07:09:22.020  INFO 6244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-24 07:09:22.025  INFO 6244 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 15.033 seconds (JVM running for 17.776)
+2021-09-24 07:10:39.422  INFO 6244 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-24 07:10:39.423  INFO 6244 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-24 07:10:39.446  INFO 6244 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2021-09-24 07:10:41.299  WARN 6244 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+2021-09-24 07:26:05.047  WARN 6244 --- [http-nio-8081-exec-7] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:06.503  WARN 6244 --- [http-nio-8081-exec-6] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:07.610  WARN 6244 --- [http-nio-8081-exec-2] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:10.070  WARN 6244 --- [http-nio-8081-exec-8] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:13.524  WARN 6244 --- [http-nio-8081-exec-1] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:17.051  WARN 6244 --- [http-nio-8081-exec-3] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:26:18.605  WARN 6244 --- [http-nio-8081-exec-6] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:36:10.322  WARN 6244 --- [http-nio-8081-exec-9] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 07:38:46.023  INFO 3792 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 3792 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
+2021-09-24 07:38:46.033  INFO 3792 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
+2021-09-24 07:38:49.163  INFO 3792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-24 07:38:49.250  INFO 3792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+2021-09-24 07:38:50.454  INFO 3792 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-24 07:38:51.695  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-09-24 07:38:51.888  INFO 3792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-24 07:38:51.892  INFO 3792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-24 07:38:53.040  INFO 3792 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-24 07:38:53.070  INFO 3792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-24 07:38:53.071  INFO 3792 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6799 ms
+2021-09-24 07:38:53.660  INFO 3792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-09-24 07:38:54.295  INFO 3792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-24 07:38:55.805  INFO 3792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-09-24 07:38:58.903  INFO 3792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-24 07:38:59.941  INFO 3792 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-09-24 07:39:00.241  INFO 3792 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-24 07:39:00.440  INFO 3792 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-24 07:39:00.973  INFO 3792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-24 07:39:00.980  INFO 3792 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 17.293 seconds (JVM running for 19.011)
+2021-09-24 07:39:14.187  INFO 3792 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-24 07:39:14.187  INFO 3792 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-24 07:39:14.213  INFO 3792 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2021-09-24 07:39:16.125  WARN 3792 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [131] milliseconds.
+2021-09-24 07:39:44.874  WARN 3792 --- [http-nio-8081-exec-5] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 08:06:54.863  INFO 288 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 288 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
+2021-09-24 08:06:54.872  INFO 288 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
+2021-09-24 08:06:56.917  INFO 288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-24 08:06:56.981  INFO 288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2021-09-24 08:06:57.955  INFO 288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-24 08:06:58.828  INFO 288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-09-24 08:06:58.854  INFO 288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-24 08:06:58.855  INFO 288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-24 08:06:59.860  INFO 288 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-24 08:06:59.886  INFO 288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-24 08:06:59.886  INFO 288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4832 ms
+2021-09-24 08:07:00.381  INFO 288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-09-24 08:07:00.745  INFO 288 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-24 08:07:02.047  INFO 288 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-09-24 08:07:04.847  INFO 288 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-24 08:07:06.204  INFO 288 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-09-24 08:07:06.695  INFO 288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-24 08:07:07.014  INFO 288 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-24 08:07:07.707  INFO 288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-24 08:07:07.843  INFO 288 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 14.817 seconds (JVM running for 16.353)
+2021-09-24 08:07:08.018  INFO 288 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-24 08:07:08.019  INFO 288 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-24 08:07:08.035  INFO 288 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-09-24 08:07:10.325  WARN 288 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+2021-09-24 08:15:03.255  INFO 9408 --- [main] com.laptrinhoop.MobileShopApplication    : Starting MobileShopApplication on 142990-NTNghia with PID 9408 (D:\Project_Java\cdw.mobileshop.com\target\classes started by Administrator in D:\Project_Java\cdw.mobileshop.com)
+2021-09-24 08:15:03.304  INFO 9408 --- [main] com.laptrinhoop.MobileShopApplication    : No active profile set, falling back to default profiles: default
+2021-09-24 08:15:06.671  INFO 9408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-09-24 08:15:06.756  INFO 9408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+2021-09-24 08:15:07.584  INFO 9408 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-24 08:15:08.410  INFO 9408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-09-24 08:15:08.439  INFO 9408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-24 08:15:08.441  INFO 9408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-24 08:15:09.657  INFO 9408 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-24 08:15:09.683  INFO 9408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-24 08:15:09.684  INFO 9408 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6187 ms
+2021-09-24 08:15:10.098  INFO 9408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2021-09-24 08:15:10.410  INFO 9408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-09-24 08:15:11.331  INFO 9408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-09-24 08:15:13.032  INFO 9408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-24 08:15:13.865  INFO 9408 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-09-24 08:15:14.158  INFO 9408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-24 08:15:14.406  INFO 9408 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-24 08:15:14.840  INFO 9408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-24 08:15:14.862  INFO 9408 --- [main] com.laptrinhoop.MobileShopApplication    : Started MobileShopApplication in 13.282 seconds (JVM running for 14.841)
+2021-09-24 08:15:31.256  INFO 9408 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-24 08:15:31.257  INFO 9408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-24 08:15:31.277  INFO 9408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-09-24 08:15:33.033  WARN 9408 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [134] milliseconds.
+2021-09-24 08:23:10.416  WARN 9408 --- [http-nio-8081-exec-4] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
+2021-09-24 08:23:21.655  WARN 9408 --- [http-nio-8081-exec-5] org.elasticsearch.client.RestClient      : request [POST http://localhost:9200/product_manage/_search?typed_keys=true&ignore_unavailable=false&expand_wildcards=open&allow_no_indices=true&ignore_throttled=true&search_type=query_then_fetch&batched_reduce_size=512&ccs_minimize_roundtrips=true] returned 1 warnings: [299 Elasticsearch-7.14.1-66b55ebfa59c92c15db3f69a335d500018b3331e "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.14/security-minimal-setup.html to enable security."]
